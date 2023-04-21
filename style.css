@@ -80,12 +80,14 @@ body{
     font-family: sans-serif;
     color: black;
     text-align: center ;
+    display: none;
     
 }
 
 #celcius{
     font-size: 50px;
     font-weight: 600;
+    margin-top: 25px;
 }
 
 .location-box{
