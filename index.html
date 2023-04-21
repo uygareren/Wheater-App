@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search..">
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        
+
+        <div class="result">
+            <div class="image">
+                <img id="image" src="./Weather Icons/cloud.svg" alt="image">
+            </div>
+
+            <h1 id="celcius">10C</h1>
+
+            <div class="location-box">
+                <i class="fa-solid fa-location-dot fa-xl"></i>
+                <h1 id="location">Turkey</h1>
+
+
+            </div>
+
+            
+            <div class="others">
+
+                <div class="humidity">
+                    <i id="dropImg" class="fa-solid fa-droplet fa-2xl"></i>
+                    <div class="humidityTxt">
+                        <h3 id="humidity">50% </h3>
+                        <h3 >Humidity </h3>
+                    </div>
+                            
+                </div>
+                
+                <div class="wind">
+                    <i id="windImg" class="fa-solid fa-wind fa-2xl"></i>
+                    <div class="windTxt">
+                        <h3 id="wind">4 km/h </h3>
+                        <h3 >Wind </h3>
+                    </div>
+                   
+                </div>
+               
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
